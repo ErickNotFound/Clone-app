@@ -23,44 +23,62 @@ export default function App() {
       <ScrollView>
         <View style={styles.brontossauro}>
           <View style={styles.yutirano}>
-            <Image source={require('./src/assets/luffy.png')} style={styles.wyvern} ></Image>
+            <Image source={{ uri: 'https://cdn.discordapp.com/attachments/756144018714263685/1042542653549580328/unknown.png' }} style={styles.wyvern} ></Image>
             <Image source={require('./src/assets/luffy.png')} style={styles.anquilossauro} ></Image>
-            <Text style={{ color: 'white' }}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</Text>
+            <Text style={{ color: 'white' }}>Os 5 GOLS mais ABSURDOS de PETCOVID no FLAMENGO</Text>
+            <View style={styles.barionix}>
+              <Text style={{ color: 'white', fontSize: '10', opacity: 0.5, alignItems:'flex-start', justifyContent: 'flex-start' }}>NBA Brasil ° 47 mil visualizações ° há 9 horas</Text>
+            </View>
           </View>
         </View>
         <View style={styles.brontossauro}>
           <View style={styles.yutirano}>
-            <Image source={require('./src/assets/luffy.png')} style={styles.wyvern} ></Image>
+            <Image source={{ uri: 'https://cdn.discordapp.com/attachments/756144018714263685/1042543939342844007/unknown.png' }} style={styles.wyvern} ></Image>
             <Image source={require('./src/assets/luffy.png')} style={styles.anquilossauro} ></Image>
-            <Text style={{ color: 'white' }}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</Text>
+            <Text style={{ color: 'white' }}>Bota um prato de comida pra mim mano</Text>
+            <View style={styles.barionix}>
+              <Text style={{ color: 'white', fontSize: '10', opacity: 0.5, alignItems:'flex-start', justifyContent: 'flex-start' }}>NBA Brasil ° 47 mil visualizações ° há 9 horas</Text>
+            </View>
           </View>
         </View>
         <View style={styles.brontossauro}>
           <View style={styles.yutirano}>
-            <Image source={require('./src/assets/luffy.png')} style={styles.wyvern} ></Image>
+            <Image source={{ uri: 'https://cdn.discordapp.com/attachments/756144018714263685/1042545200452608010/unknown.png' }} style={styles.wyvern} ></Image>
             <Image source={require('./src/assets/luffy.png')} style={styles.anquilossauro} ></Image>
-            <Text style={{ color: 'white' }}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</Text>
+            <Text style={{ color: 'white' }}>SPEED RUN LEGO BATMAN ANY%</Text>
+            <View style={styles.barionix}>
+              <Text style={{ color: 'white', fontSize: '10', opacity: 0.5, alignItems:'flex-start', justifyContent: 'flex-start' }}>NBA Brasil ° 47 mil visualizações ° há 9 horas</Text>
+            </View>
           </View>
         </View>
         <View style={styles.brontossauro}>
           <View style={styles.yutirano}>
-            <Image source={require('./src/assets/luffy.png')} style={styles.wyvern} ></Image>
+            <Image source={{ uri: 'https://cdn.discordapp.com/attachments/756144018714263685/1042543939342844007/unknown.png' }} style={styles.wyvern} ></Image>
             <Image source={require('./src/assets/luffy.png')} style={styles.anquilossauro} ></Image>
             <Text style={{ color: 'white' }}>SSSSSSSSSS</Text>
+            <View style={styles.barionix}>
+              <Text style={{ color: 'white', fontSize: '10', opacity: 0.5, alignItems:'flex-start', justifyContent: 'flex-start' }}>NBA Brasil ° 47 mil visualizações ° há 9 horas</Text>
+            </View>
           </View>
         </View>
         <View style={styles.brontossauro}>
           <View style={styles.yutirano}>
-            <Image source={require('./src/assets/luffy.png')} style={styles.wyvern} ></Image>
+            <Image source={{ uri: 'https://cdn.discordapp.com/attachments/756144018714263685/1042543939342844007/unknown.png' }} style={styles.wyvern} ></Image>
             <Image source={require('./src/assets/luffy.png')} style={styles.anquilossauro} ></Image>
-            <Text style={{ color: 'white' }}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</Text>
+            <Text style={{ color: 'white' }}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</Text>
+            <View style={styles.barionix}>
+              <Text style={{ color: 'white', fontSize: '10', opacity: 0.5, alignItems:'flex-start', justifyContent: 'flex-start' }}>NBA Brasil ° 47 mil visualizações ° há 9 horas</Text>
+            </View>
           </View>
         </View>
         <View style={styles.brontossauro}>
           <View style={styles.yutirano}>
-            <Image source={require('./src/assets/luffy.png')} style={styles.wyvern} ></Image>
+            <Image source={{ uri: 'https://cdn.discordapp.com/attachments/756144018714263685/1042543939342844007/unknown.png' }} style={styles.wyvern} ></Image>
             <Image source={require('./src/assets/luffy.png')} style={styles.anquilossauro} ></Image>
-            <Text style={{ color: 'white' }}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</Text>
+            <Text style={{ color: 'white' }}>SSSSSSSSSSSSSSSSSSSSSSSSSS</Text>
+            <View style={styles.barionix}>
+              <Text style={{ color: 'white', fontSize: '10', opacity: 0.5, alignItems:'flex-start', justifyContent: 'flex-start' }}>NBA Brasil ° 47 mil visualizações ° há 9 horas</Text>
+            </View>
           </View>
         </View>
       </ScrollView>
@@ -151,5 +169,10 @@ const styles = StyleSheet.create({
   wyvern: {
     width: "100%",
     height: 200
+  },
+  barionix: {
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 });
